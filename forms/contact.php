@@ -49,7 +49,7 @@
     $body .= "Message: ".$message. "\r\n";
  
     mail($to, $subject, $body);
-    ini_set($to, $subject,$body);
+    
  
     $sent_messsage = true;
     

@@ -1,16 +1,18 @@
 <?php
   if(isset($_POST['contact_btn'])){
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $msg = $_POST['message'];
+    $name = $_POST['user_name'];
+    $email = $_POST['user_email'];
+    $subject = $_POST['user_subject'];
+    $msg = $_POST['user_message'];
 
     $to = "johnsonjardocs@gmail.com";
     $header ="From: $email";
-    if(mail($to, $subject, $msg, $header)){
+    if(ini_set($to, $msg)){
       $msg1 = "Message Submitted successfully!!";
+      echo $msg1;
     }else{
       $msg2 = "Something Went Wrong!";
+      echo $msg2;
     }
   }
 
@@ -62,7 +64,7 @@
         <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Johnson Ikechukwu</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/JayCanCode" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://twitter.com/Johnson__Cipher" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="https://github.com/JayAlwaysCodes" target="_blank" class="github"><i class="bx bxl-github"></i></a>
           <a href="https://www.linkedin.com/in/johnson-ikechukwu-190b73234/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
@@ -120,7 +122,7 @@
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li> -->
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li> -->
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>johnsonjardocs@gmail.com</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
@@ -300,7 +302,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <video src="assets/img/portfolio/chat-app_Trim.mp4" class="img-fluid" autoplay loop preload="auto"></video>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -310,7 +312,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <video src="assets/img/portfolio/Face_detect_AI_Trim.mp4" class="img-fluid" autoplay loop preload="auto"></video>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -330,7 +332,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <video src="assets/img/portfolio/travel_site_Trim.mp4" class="img-fluid" autoplay loop preload="auto"></video>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -550,7 +552,7 @@
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
         
-            <form  method="post" role="form" class="php-email-form">
+            <form action="#sform" id="sform" method="post" role="form" class="php-email-form">
               <strong>
                 <?php 
                   if(!empty($msg1)){
@@ -561,20 +563,20 @@
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                  <input type="text" name="user_name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                  <input type="email" class="form-control" name="user_email" id="email" required>
                 </div>
               </div>
               <div class="form-group">
                 <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
+                <input type="text" class="form-control" name="user_subject" id="subject" required>
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <textarea class="form-control" name="user_message" rows="10" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
