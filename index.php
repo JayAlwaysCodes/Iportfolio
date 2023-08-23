@@ -107,9 +107,9 @@
             <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>SMART CONTRACT &amp; Web3 DEVELOPER.</h3>
+            <h3>SMART CONTRACT &amp; Web DEVELOPER.</h3>
             <p class="fst-italic">
-              Developing Smart Contracts using Solidity and web3 projects in python is what caught my fancy in the recent months.
+              Developing Smart Contracts using Solidity and web projects in php/laravel is what caught my fancy in the recent years.
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -130,7 +130,7 @@
               </div>
             </div>
             <p>
-              Well versed in HTML and CSS, but my quest for more led into learning more. Also knowledgable in Python, PHP, MySql and a 30% knowledge in JavaScript. Over the months i have developed strong interest in the Defi and Blockchain world, leading to my sped up learning and the ability and willingness to even learn more and more of this ecosystem. I have worked on a few projects in respect to this.
+              Well versed in HTML and CSS, but my quest for more led into learning more. Also knowledgable in Python, PHP, MySql and a 50% knowledge in JavaScript. Over the months i have developed strong interest in the Defi and Blockchain world, leading to my sped up learning and the ability and willingness to even learn more and more of this ecosystem. I have worked on a few projects in respect to this.
               
             </p>
           </div>
@@ -145,7 +145,7 @@
 
         <div class="section-title">
           <h2>Facts</h2>
-          <p>My work tells how deligent i am in making sure my clients gets what they desired of me. The numbers speaks for it self.</p>
+          <p>My work stats tells how deligent i am in making sure my clients gets what they desire of me. The numbers speaks for it self.</p>
         </div>
 
         <div class="row no-gutters">
@@ -187,7 +187,7 @@
           <div class="col-lg-6" data-aos="fade-up">
 
             <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
+              <span class="skill">HTML <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -201,21 +201,21 @@
             </div>
 
             <div class="progress">
-              <span class="skill">JavaScript <i class="val">30%</i></span>
+              <span class="skill">JavaScript <i class="val">50%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">DEFI <i class="val">70%</i></span>
+              <span class="skill">DEFI <i class="val">60%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             
             <div class="progress">
-              <span class="skill">NFT <i class="val">75%</i></span>
+              <span class="skill">NFT <i class="val">70%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -226,13 +226,13 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
             <div class="progress">
-              <span class="skill">PHP <i class="val">70%</i></span>
+              <span class="skill">PHP/LARAVEL <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             <div class="progress">
-              <span class="skill">MYSQL <i class="val">75%</i></span>
+              <span class="skill">MYSQL <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -253,7 +253,7 @@
             </div>
             
             <div class="progress">
-              <span class="skill">Solidity <i class="val">80%</i></span>
+              <span class="skill">Solidity <i class="val">70%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -286,7 +286,7 @@
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row portfolio-container my-10 py-15 d-flex" data-aos="fade-up" data-aos-delay="100">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
@@ -295,7 +295,7 @@
               
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/car_detect.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Car Detection App"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="python_projects.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -305,7 +305,7 @@
               <video src="assets/img/portfolio/chat-app_Trim.mp4" class="img-fluid" autoplay loop preload="auto"></video>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="python_projects.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -314,8 +314,8 @@
             <div class="portfolio-wrap">
               <video src="assets/img/portfolio/Face_detect_AI_Trim.mp4" class="img-fluid" autoplay loop preload="auto"></video>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/face_reg.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Face Recognition Using Python"><i class="bx bx-plus"></i></a>
+                <a href="python_projects.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -342,9 +342,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/motion_pic.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/motion_detect.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Motion Detection with Alarm using python and open cv"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
