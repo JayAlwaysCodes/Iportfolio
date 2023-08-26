@@ -304,7 +304,7 @@
             <div class="portfolio-wrap">
               <video src="assets/img/portfolio/chat-app_Trim.mp4" class="img-fluid" autoplay loop preload="auto"></video>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/chat-app_pic.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Chat App"><i class="bx bx-plus"></i></a>
                 <a href="python_projects.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -334,8 +334,8 @@
             <div class="portfolio-wrap">
               <video src="assets/img/portfolio/travel_site_Trim.mp4" class="img-fluid" autoplay loop preload="auto"></video>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/travel-site_pic.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Travel Site"><i class="bx bx-plus"></i></a>
+                <a href="web_projects.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -374,8 +374,8 @@
             <div class="portfolio-wrap">
               <video src="assets/img/portfolio/Ecommerce-Trim.mp4" class="img-fluid" autoplay loop preload="auto"></video>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/Ecommer_pic.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ecommerce"><i class="bx bx-plus"></i></a>
+                <a href="web_projects.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
