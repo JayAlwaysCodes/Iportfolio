@@ -99,7 +99,7 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>My strong passion and love for technology and problem solving is what keeps me going and striving to learn more and more. I have this special ability to think of creative and effective way/ways of solving problems With a strong background in Networking and Communication has helped me immersely in working with a team and delivering the expected results within the given time frame.</p>
+          <!-- <p>My strong passion and love for technology and problem solving is what keeps me going and striving to learn more and more. I have this special ability to think of creative and effective way/ways of solving problems With a strong background in Networking and Communication has helped me immersely in working with a team and delivering the expected results within the given time frame.</p> -->
         </div>
 
         <div class="row">
@@ -109,7 +109,8 @@
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>SMART CONTRACT &amp; Web DEVELOPER.</h3>
             <p class="fst-italic">
-              Developing Smart Contracts using Solidity and web projects in php/laravel is what caught my fancy in the recent years.
+            <strong>Web3 developer: </strong>Building smart contracts with Solidity and Foundry. <br>
+            <strong>Blockchain enthusiast: </strong> Exploring Web3 with Solidity and Foundry.
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -130,7 +131,7 @@
               </div>
             </div>
             <p>
-              Well versed in HTML and CSS, but my quest for more led into learning more. Also knowledgable in Python, PHP, MySql and a 50% knowledge in JavaScript. Over the months i have developed strong interest in the Defi and Blockchain world, leading to my sped up learning and the ability and willingness to even learn more and more of this ecosystem. I have worked on a few projects in respect to this.
+            Highly skilled web developer with expertise in HTML, CSS, JavaScript (framework-agnostic), PHP, MySQL, Python, Solidity, and Foundry. Extensive experience developing diverse projects across these technologies, honing my proficiency and mastery. Project examples can be found in the following sections and on my GitHub repository. Proven ability to collaborate effectively within teams, contributing to successful project completion. While most past collaborations have been offline, I am adept at working in both online and offline environments.
               
             </p>
           </div>
@@ -305,7 +306,7 @@
               <video src="assets/img/portfolio/chat-app_Trim.mp4" class="img-fluid" autoplay loop preload="auto"></video>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/chat-app_pic.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Chat App"><i class="bx bx-plus"></i></a>
-                <a href="python_projects.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="web_projects.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
