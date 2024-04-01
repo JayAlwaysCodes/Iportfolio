@@ -1,20 +1,20 @@
 <?php
-  if(isset($_POST['contact_btn'])){
-    $name = $_POST['user_name'];
-    $email = $_POST['user_email'];
-    $subject = $_POST['user_subject'];
-    $msg = $_POST['user_message'];
+  // if(isset($_POST['contact_btn'])){
+  //   $name = $_POST['user_name'];
+  //   $email = $_POST['user_email'];
+  //   $subject = $_POST['user_subject'];
+  //   $msg = $_POST['user_message'];
 
-    $to = "johnsonjardocs@gmail.com";
-    $header ="From: $email";
-    if(ini_set($to, $msg)){
-      $msg1 = "Message Submitted successfully!!";
-      echo $msg1;
-    }else{
-      $msg2 = "Something Went Wrong!";
-      echo $msg2;
-    }
-  }
+  //   $to = "johnsonjardocs@gmail.com";
+  //   $header ="From: $email";
+  //   if(ini_set($to, $msg)){
+  //     $msg1 = "Message Submitted successfully!!";
+  //     echo $msg1;
+  //   }else{
+  //     $msg2 = "Something Went Wrong!";
+  //     echo $msg2;
+  //   }
+  // }
 
 ?>
 
@@ -254,7 +254,7 @@
             </div>
             
             <div class="progress">
-              <span class="skill">Solidity <i class="val">70%</i></span>
+              <span class="skill">Solidity?Foundry <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -323,10 +323,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/smc1.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assetsimg/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assetsimg/portfolio/smc2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="SolidityProjects.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -353,20 +353,20 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/NFT1.jpeg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/NFT2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="SolidityProjects.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/FSC1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/FSC2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="SolidityProjects.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -463,8 +463,8 @@
                   As a user interface designer, Johnson has helped to bring my designs to life with his html, css, and JavaScript Knowledge, i love his works.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonial-2.jpg" class="testimonial-img" alt="">
-                <h3>Sofia</h3>
+                <img src="assets/img/testimonials/testimoial2.jpg" class="testimonial-img" alt="">
+                <h3>Salient</h3>
                 <h4>Designer</h4>
               </div>
             </div><!-- End testimonial item -->
@@ -476,8 +476,8 @@
                   Having your store online is what most store owners desiire so much, with help of Johnson, I have been able to also have my store online as an E-commerce outlet, Thanks to him.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonial-3.jpg" class="testimonial-img" alt="">
-                <h3>Christabel</h3>
+                <img src="assets/img/testimonials/testimonial3.jpg" class="testimonial-img" alt="">
+                <h3>Justina</h3>
                 <h4>Store Owner</h4>
               </div>
             </div><!-- End testimonial item -->
@@ -502,7 +502,7 @@
                   As an Entreprenuer in the crypto space, my NFT project was properly handled by him and i was able to make maximum profit from it. 
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonial-5.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonial5.jpg" class="testimonial-img" alt="">
                 <h3>Destiny</h3>
                 <h4>Entrepreneur</h4>
               </div>
@@ -553,22 +553,22 @@
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
         
-            <form action="#sform" id="sform" method="post" role="form" class="php-email-form">
+            <form action="SendMail.php" id="sform" method="post" role="form" class="php-email-form">
               <strong>
                 <?php 
-                  if(!empty($msg1)){
-                    echo $msg1;
-                  }
+                  // if(!empty($msg1)){
+                  //   echo $msg1;
+                  // }
                 ?>
               </strong>
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="user_name" class="form-control" id="name" required>
+                  <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="user_email" id="email" required>
+                  <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
               <div class="form-group">
@@ -577,14 +577,14 @@
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
-                <textarea class="form-control" name="user_message" rows="10" required></textarea>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
-              <div class="my-3">
+              <!-- <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit" name="contact_btn" >Send Message</button></div>
+              </div> -->
+              <div class="text-center"><button type="submit" >Send Message</button></div>
             </form>
           </div>
 
