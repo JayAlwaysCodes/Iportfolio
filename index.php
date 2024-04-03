@@ -451,7 +451,7 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonial-1.jpg" class="testimonial-img" alt="">
-                <h3>Simeon Goodman</h3>
+                <h3>Simeon</h3>
                 <h4>Ceo &amp; Founder</h4>
               </div>
             </div><!-- End testimonial item -->
@@ -476,7 +476,7 @@
                   Having your store online is what most store owners desiire so much, with help of Johnson, I have been able to also have my store online as an E-commerce outlet, Thanks to him.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonial3.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonial03.jpg" class="testimonial-img" alt="">
                 <h3>Justina</h3>
                 <h4>Store Owner</h4>
               </div>
