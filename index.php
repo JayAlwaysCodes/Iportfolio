@@ -1,21 +1,38 @@
 <?php
-  // if(isset($_POST['contact_btn'])){
-  //   $name = $_POST['user_name'];
-  //   $email = $_POST['user_email'];
-  //   $subject = $_POST['user_subject'];
-  //   $msg = $_POST['user_message'];
 
-  //   $to = "johnsonjardocs@gmail.com";
-  //   $header ="From: $email";
-  //   if(ini_set($to, $msg)){
-  //     $msg1 = "Message Submitted successfully!!";
-  //     echo $msg1;
-  //   }else{
-  //     $msg2 = "Something Went Wrong!";
-  //     echo $msg2;
-  //   }
-  // }
+// Set recipient email address
+$to = "johnsonjardocs@gmail.com";
 
+// Check if form was submitted
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+  // Get form data
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $message = $_POST['message'];
+
+  // Subject for the email
+  $subject = 'Contact Form Submission - ' . $name;
+
+  // Prepare message body
+  $message_body = "Name: $name \n";
+  $message_body .= "Email: $email \n";
+  $message_body .= "Message: $message \n";
+
+  // Set email headers
+  $headers = "From: $email \r\n";
+  $headers .= "Reply-To: $email \r\n";
+  $headers .= "Content-Type: text/plain; charset=UTF-8 \r\n";
+
+  // Attempt to send email
+  if (mail($to, $subject, $message_body, $headers)) {
+    // Email sent successfully
+    echo "Thank you for contacting us! We will get back to you shortly.";
+  } else {
+    // Email sending failed
+    echo "There was an error sending your message. Please try again later.";
+  }
+}
 ?>
 
 
@@ -77,7 +94,7 @@
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
           <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-          <li><a href="Resume.pdf" class="nav-link scrollto" target="_blank"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="Resume.docx" class="nav-link scrollto" target="_blank"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -222,6 +239,13 @@
               </div>
             </div>
 
+            <div class="progress">
+              <span class="skill">GO LANG <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -254,11 +278,20 @@
             </div>
             
             <div class="progress">
-              <span class="skill">Solidity?Foundry <i class="val">75%</i></span>
+              <span class="skill">Solidity/Foundry <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
+
+            <div class="progress">
+              <span class="skill">RUST/SOLANA <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            
 
           </div>
 
@@ -456,19 +489,7 @@
               </div>
             </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  As a user interface designer, Johnson has helped to bring my designs to life with his html, css, and JavaScript Knowledge, i love his works.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimoial2.jpg" class="testimonial-img" alt="">
-                <h3>Salient</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
+            
             <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
                 <p>
@@ -494,6 +515,20 @@
                 <h4>Freelancer</h4>
               </div>
             </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  As a user interface designer, Johnson has helped to bring my designs to life with his html, css, and JavaScript Knowledge, i love his works.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimoial2.jpg" class="testimonial-img" alt="">
+                <h3>Salient</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
 
             <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
@@ -537,13 +572,13 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>johnsonjardocs@gmail.com</p>
+                <a href="mailto:johnsonjardocs@gmail.com" target="_blank"><p>johnsonjardocs@gmail.com</p></a>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+234 8088 307 488</p>
+                <h4>Call/WhatsApp:</h4>
+                <a href="https://wa.me/qr/CGDESUPQWQKDP1" target="_blank"><p>+234 8088 307 488</p></a>
               </div>
 
               <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
@@ -553,7 +588,7 @@
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
         
-            <form action="SendMail.php" id="sform" method="post" role="form" class="php-email-form">
+            <form   id="sform"  role="form" class="php-email-form">
               <strong>
                 <?php 
                   // if(!empty($msg1)){
@@ -571,10 +606,10 @@
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <label for="name">Subject</label>
                 <input type="text" class="form-control" name="user_subject" id="subject" required>
-              </div>
+              </div> -->
               <div class="form-group">
                 <label for="name">Message</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
@@ -584,7 +619,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div> -->
-              <div class="text-center"><button type="submit" >Send Message</button></div>
+              <div class="text-center"><a href="mailto:johnsonikechukwu525@gmail.com"><button type="submit"  value="Submit" href="mailto:johnsonikechukwu525@gmail.com">Send Message</button></a></div>
             </form>
           </div>
 
